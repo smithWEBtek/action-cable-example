@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-ruby '2.3.0'
-gem 'rails', '>= 5.0.0.beta3', '< 5.1'
+ruby '2.4.3'
+gem 'rails', '>= 5.0.0', '< 5.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
@@ -19,10 +19,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5.x'
 gem 'jbuilder', '~> 2.0'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-
-
-
+gem 'redis', '~> 3.0'
 
 group :production do 
   gem 'rails_12factor'
